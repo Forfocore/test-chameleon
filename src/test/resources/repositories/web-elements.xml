@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages xmlns="http://chameleon.ibs-qa.ru/schema/web-elements">
+    <Page name="Главная страница">
+        <Button name="Песочница" locator="//a[@class=&apos;nav-link dropdown-toggle&apos;]"/>
+        <Button name="Товары" locator="//a[text()='Товары']"/>
+    </Page>
+    <Page name="Таблица">
+        <Button name="Добавить" locator="//button[text()='Добавить']"/>
+        <TextInput name="Наименование" locator="//input[@id='name']"/>
+        <ComboBox locator="//select[@id='type']" name="Тип"/>
+        <CheckBox name="Экзотический" locator="//input[@id='exotic']"/>
+        <Button name="Сохранить" locator="//button[text()='Сохранить']"/>
+    </Page>
+</Pages>
